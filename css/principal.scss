@@ -31,32 +31,37 @@ p {
 /* centro da page */
 aside{
 	background: #4b6a78;
+	section{
+		padding: 10px;
+		background: #698e9e;
+		figure{
+			width: 70%;
+			border-radius: 50%;
+			border: 2px solid grey;
+			overflow: hidden;
+			img{
+				width: $porcento;
+			}
+		}
+		h2, h3{
+			text-align: center;
+		}
+		.center-horizontal{
+			margin: 5px auto 0px auto;
+		}
+	}
+
+
 }
-aside section{
-	padding: 10px;
-	background: #698e9e;
-}
-aside section figure{
-	width: 70%;
-	border-radius: 50%;
-	border: 2px solid grey;
-	overflow: hidden;
-}
-aside section figure img{
-	width: $porcento;
-}
-aside section h2, h3{
-	text-align: center;
-}
+
+
 .txtWhite{
 	color: white;
 }
 .txtGrey{
 	color: 	#212223;
 }
-aside section .center-horizontal{
-	margin: 5px auto 0px auto;
-}
+
 
 .material-icons {
     transform: translateY(7px);
