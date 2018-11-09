@@ -5,6 +5,9 @@ $porcento: 100%;
 @mixin width100{
 	width: 100%;
 }
+@mixin borderVar($valor: black){
+	border: 1px solid $valor;
+}
 
 html, body{
 	@include  width100;
@@ -67,6 +70,7 @@ aside section .center-horizontal{
 .progress{
 	width: 70%;
 	background: #d6cece;
+	@include borderVar(none);
 }
 .progress-bar{
 	border-radius: 7px 0px 0px 7px;
