@@ -1,5 +1,6 @@
 html, body {
   width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px; }
 
@@ -16,6 +17,7 @@ p {
 .col-md-4 {
   padding: 0px; }
 
+/* centro da page */
 aside {
   background: #4b6a78; }
 

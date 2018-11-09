@@ -1,7 +1,14 @@
+// variaveis usadas no meu sass
 $porcento: 100%;
 
-html, body{
+// variaveis usadas no meu sass
+@mixin width100{
 	width: 100%;
+}
+
+html, body{
+	@include  width100;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -18,6 +25,7 @@ p {
 .col-md-4{
 	padding: 0px;	
 }
+/* centro da page */
 aside{
 	background: #4b6a78;
 }

@@ -14,7 +14,7 @@
 <body>
 	<div class="container bgDivPrincipal mt-1">
 
-		<aside class="col-md-4 float-left">
+		<aside id="lateral" class="col-md-4 float-left">
 			<section>
 				<figure class="center-horizontal">
 					<img  alt="foto-de-emerson" src="image/emerson.jpg" />
@@ -168,6 +168,11 @@
 					<div class="progress">
 						<div class="progress-bar" role="progressbar" aria-valuenow="0"  style="width: 30%" aria-valuemin="0" aria-valuemax="100"></div>
 					</div><br />
+
+					<div class="title float-left">PHOTOSHOP</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="0"  style="width: 40%" aria-valuemin="0" aria-valuemax="100"></div>
+					</div><br />
 				</div>
 			</section>
 
@@ -176,7 +181,7 @@
 					PORTIFÓLIO
 				</h2>
 				<table class="col-md-12">
-					<tr><td><a href="HTTPS://WWW.DBSEGURANCA.COM.BR">HTTPS://WWW.DBSEGURANCA.COM.BR</a></td><td>em construção</td></tr>
+					<tr><td><a class="urlLink" href="HTTPS://WWW.DBSEGURANCA.COM.BR">HTTPS://WWW.DBSEGURANCA.COM.BR</a></td><td>em construção</td></tr>
 					<tr><td><a href="http://WWW.CESST.MED.BR">http://WWW.CESST.MED.BR/</a></td></tr>
 				</table>
 			</section>
@@ -186,5 +191,9 @@
 			
 		</footer>
 	</div>
+	<script type="text/javascript">
+		$altura = $(document).height();
+		$("#lateral").height($altura);
+	</script>
 </body>
 </html>
