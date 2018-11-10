@@ -1,3 +1,6 @@
+aside section figure, .progress {
+  width: 70%; }
+
 html, body {
   width: 100%;
   height: 100%;
@@ -20,31 +23,30 @@ p {
 /* centro da page */
 aside {
   background: #4b6a78; }
-
-aside section {
-  padding: 10px;
-  background: #698e9e; }
-
-aside section figure {
-  width: 70%;
-  border-radius: 50%;
-  border: 2px solid grey;
-  overflow: hidden; }
-
-aside section figure img {
-  width: 100%; }
-
-aside section h2, h3 {
-  text-align: center; }
+  aside section {
+    padding: 10px;
+    background: #698e9e; }
+    aside section figure {
+      border-radius: 50%;
+      border: 2px solid grey;
+      overflow: hidden; }
+      aside section figure img {
+        width: 100%; }
+    aside section h2, aside section h3 {
+      text-align: center; }
+    aside section .center-horizontal {
+      margin: 5px auto 0px auto; }
+  @media (max-width: 767px) {
+    aside {
+      height: auto; }
+      aside .center-text {
+        text-align: center; } }
 
 .txtWhite {
   color: white; }
 
 .txtGrey {
   color: #212223; }
-
-aside section .center-horizontal {
-  margin: 5px auto 0px auto; }
 
 .material-icons {
   transform: translateY(7px); }
@@ -56,9 +58,8 @@ aside section .center-horizontal {
   margin-top: 1px; }
 
 .progress {
-  width: 70%;
   background: #d6cece;
-  border: 1px solid none; }
+  border: 1px solid #0000cc; }
 
 .progress-bar {
   border-radius: 7px 0px 0px 7px; }

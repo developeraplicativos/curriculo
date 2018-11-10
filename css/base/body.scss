@@ -1,0 +1,17 @@
+
+html, body{
+	@include  width100;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+    margin: 0px auto auto 10px;
+}
+.bgDivPrincipal{
+	background: #efefef;
+	box-shadow: -9px 7px 23px grey;
+	margin-bottom: 10px;
+	overflow: auto;
+	padding-bottom: 10px;	
+}

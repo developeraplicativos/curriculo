@@ -1,0 +1,61 @@
+
+.col-md-4{
+	padding: 0px;	
+}
+/* centro da page */
+aside{
+	background: #4b6a78;
+	section{
+		padding: 10px;
+		background: #698e9e;
+		figure{
+			@extend %width-70;
+			border-radius: 50%;
+			border: 2px solid grey;
+			overflow: hidden;
+			img{
+				width: $porcento;
+			}
+		}
+		h2, h3{
+			text-align: center;
+		}
+		.center-horizontal{
+			margin: 5px auto 0px auto;
+		}
+	}
+	@media(max-width: 767px){
+		height: auto;
+		.center-text{
+			text-align: center;
+		}
+	}
+
+}
+
+
+.txtWhite{
+	color: white;
+}
+.txtGrey{
+	color: 	#212223;
+}
+
+
+.material-icons {
+    transform: translateY(7px);
+}
+#percent .title{
+	text-align: right;
+	width: 100px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.progress{
+	@extend %width-70;
+	background: #d6cece;
+	@include borderVar(blue);
+}
+.progress-bar{
+	border-radius: 7px 0px 0px 7px;
+}
