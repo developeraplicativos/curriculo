@@ -17,14 +17,16 @@ aside{
 				width: $porcento;
 			}
 		}
-		h2, h3{
+		h2, h3, h6{
 			text-align: center;
 		}
 		.center-horizontal{
 			margin: 5px auto 0px auto;
 		}
 	}
-	@media(max-width: 767px){
+
+
+	@media #{$mq}{
 		height: auto;
 		.center-text{
 			text-align: center;
@@ -55,7 +57,9 @@ aside{
 	@extend %width-70;
 	background: #d6cece;
 	@include borderVar(blue);
+	@include box-shadow(black 2px 2px 5px);
 }
 .progress-bar{
 	border-radius: 7px 0px 0px 7px;
+
 }
