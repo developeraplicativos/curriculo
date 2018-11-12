@@ -18,7 +18,9 @@ aside{
 				width: $porcento;
 			}
 		}
-		h2, h3, h6{
+		h2, h3, h4, h5, h6{
+			margin-bottom: 0px;
+			margin-top: 0px;
 			text-align: center;
 		}
 		.center-horizontal{
