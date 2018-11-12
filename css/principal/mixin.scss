@@ -12,6 +12,10 @@
 	width: 70%;
 }
 
+@function valores($valores){
+	@return $valores * 2;
+}
 //--
 
 @import "compass/css3";
+@import "compass/utilities";

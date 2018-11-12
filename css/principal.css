@@ -1,3 +1,9 @@
+@spt-spacing : 5px;
+.spt-sprite {
+  background-image: url('/image/spt-sf297e4ce07.png');
+  background-repeat: no-repeat;
+}
+
 aside section figure, .progress {
   width: 70%;
 }
@@ -34,6 +40,8 @@ aside section {
   background: #698e9e;
 }
 aside section figure {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   border: 2px solid grey;
   overflow: hidden;
@@ -84,5 +92,7 @@ aside section .center-horizontal {
 }
 
 .progress-bar {
-  border-radius: 7px 0px 0px 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
 }

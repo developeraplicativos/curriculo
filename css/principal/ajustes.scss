@@ -10,7 +10,8 @@ aside{
 		background: #698e9e;
 		figure{
 			@extend %width-70;
-			border-radius: 50%;
+			@include border-radius(50%);
+			// border-radius: 7px 7px 7px 7px;
 			border: 2px solid grey;
 			overflow: hidden;
 			img{
@@ -49,10 +50,11 @@ aside{
 }
 #percent .title{
 	text-align: right;
-	width: 100px;
+	width: valores(50px);
     margin-right: 10px;
     margin-top: 1px;
 }
+
 .progress{
 	@extend %width-70;
 	background: #d6cece;
@@ -60,6 +62,7 @@ aside{
 	@include box-shadow(black 2px 2px 5px);
 }
 .progress-bar{
-	border-radius: 7px 0px 0px 7px;
+	@include border-radius(7px);
+	// border-radius: 7px 0px 0px 7px;
 
 }
